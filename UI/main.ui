@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>581</width>
+    <height>550</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>581</width>
+    <height>550</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>581</width>
+    <height>550</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>12</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Работа с текстом в PyQt5</string>
+  </property>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>420</y>
+     <width>561</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="spacing">
+     <number>70</number>
+    </property>
+    <property name="leftMargin">
+     <number>70</number>
+    </property>
+    <property name="rightMargin">
+     <number>70</number>
+    </property>
+    <item>
+     <widget class="QPushButton" name="pushButton_execute">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Выполнить</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_clear">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Очистить</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_exit">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Выйти</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>561</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>В четверг четвёртого числа в четыре с четвертью часа лигурийский регулировщик Лигурий регулировал в Лигурии, но тридцать три корабля лавировали-лавировали, да так и не вылавировали, а потом Прокл протокол про прокол протоколом запротоколировал, как интервьюером интервьюируемый лигурийский регулировщик речисто, да нечисто рапортовал, да не дорапортовал — дорапортовывал, да так зарапортовался про размокропогодившуюся погоду, что, дабы инцидент не стал претендентом на судебный прецедент, лигурийский регулировщик акклиматизировался в неконституционном Константинополе, где хохлатые хохотушки хохотом хохотали и кричали турке, который начерно обкурен трубкой: «Не кури, турка, трубку — купи лучше кипу пик, лучше пик кипу купи, а то придёт бомбардир из Бранденбурга — бомбами забомбардирует за то, что некто чёрнорылый у него полдвора рылом изрыл, вырыл и подрыл»; но на самом деле турка не был в деле, а Клара-краля в то время кралась к ларю, пока Карл у Клары кораллы крал, за что Клара у Карла украла кларнет, а потом на дворе дёготниковой вдовы Варвары два этих вора дрова воровали; но грех — не смех — не уложить в орех: о Кларе с Карлом во мраке все раки шумели в драке — вот и не до бомбардира ворам было, и не до дёготниковой вдовы, и не до дёготниковых детей; зато рассердившаяся вдова убрала в сарай дрова: раз — дрова, два — дрова, три — дрова — не вместились все дрова, и два дровосека, два дровокола-дроворуба для расчувствовавшейся Варвары выдворили дрова вширь двора обратно на дровяной двор, где цапля чахла, цапля сохла, цапля сдохла; цыплёнок же цапли цепко цеплялся за цепь — молодец против овец, против молодца — сам овца, которой носит Сеня сено в сани, потом везёт Сенька Соньку с Санькой на санках: санки — скок, Сеньку — в бок, Соньку — в лоб, все — в сугроб, а Сашка — только шапкой шишки сшиб, затем по шоссе Саша пошёл, Саша на шоссе саше нашёл; Сонька же — Сашкина подружка — шла по шоссе и сосала сушку, да притом у Соньки-вертушки во рту ещё и три ватрушки — аккурат в медовик, но ей не до медовика — Сонька и с ватрушками во рту пономаря перепономарит-перевыпономарит: жужжит, как жужелица, жужжит да кружится: была у Фрола — Фролу на Лавра наврала, пойдёт к Лавру — на Фрола Лавру наврёт, что вахмистр — с вахмистршей, ротмистр — с ротмистршей, что у ужа — ужата, а у ежа — ежата, а у кого высокопоставленный гость унёс трость, и вскоре опять пять ребят съели пять опят с полчетвертью четверика чечевицы без червоточины и тысячу шестьсот шестьдесят шесть пирогов с творогом из сыворотки из-под простокваши; о всём о том около кола колокола звоном раззванивали, да так, что даже Константин зальцбуржский бесперспективняк из-под бронетранспортёра констатировал: как все колокола не переколоколовать, не перевыколоколовать, так и всех скороговорок не перескороговорить, не перевыскороговорить, но попытка — не пытка!</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>80</y>
+     <width>561</width>
+     <height>321</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_task">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>470</y>
+     <width>561</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border : 2px solid black;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Вариант №1&lt;/span&gt;&lt;br/&gt;	Текст записан одной длинной строкой. Признаком красной строки служит&lt;br/&gt;символ &lt;b&gt;$&lt;/b&gt;. Переформатировать текст в 60-символьные строки,формируя абзацы&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_line">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>10</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>QLineEdit</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_text">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>60</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>QTextEdit</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
